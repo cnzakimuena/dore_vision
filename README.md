@@ -12,7 +12,7 @@ dore_vision
 |       
 \---document
     |   
-    +---illustrations
+    \---illustrations
         +---book_folder
         |       image_file.jpg
         |       ...
