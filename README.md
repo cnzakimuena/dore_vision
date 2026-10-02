@@ -4,18 +4,20 @@ Gustave Doré Divine Comedy illustrations with accompanying excerpts from the or
 For automated generation, the repository should at minimum initially contain the following files in the structure shown below:
 
 ```text
-dore_vision/
-├── document/
-│   ├── illustrations/
-│   │   ├── book_folder/
-│   │   │   ├── image_file.jpg
-│   │   │   └── ...
-│   │   └── ...
-│   └── References.bib
-├── Dore_vision_starter.tex
-├── Dore_vision_text.csv
-├── generator.py
-└── requirements.txt
+dore_vision
+|   Dore_vision_starter.tex
+|   Dore_vision_text.csv
+|   generator.py
+|   requirements.txt
+|       
+\---document
+    |   
+    +---illustrations
+        +---book_folder
+        |       image_file.jpg
+        |       ...
+        |       
+        \---...
 ```
 
 Environment setup:
