@@ -11,6 +11,7 @@ dore_vision
 |   requirements.txt
 |       
 \---document
+    |   References.bib
     |   
     \---illustrations
         +---book_folder
